@@ -1,11 +1,19 @@
 .App {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: azure;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-container {
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 2
 }
-
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -15,8 +23,30 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+/* .App-link {
+  color: #09d3ac;
+} */
+
+.Side {
+  width: 50vw;
+  height: 100vh;
+  flex-basis: 1;
+  background-image: url('./bg.jpg');
+  /* background-attachment: fixed;
+  background-size: cover;
+  background-position: center; */
+}
+.Form {
+  width: 50vw;
+  /* height: 40vh; */
+  /* flex-basis: 2; */
+  
 }
 
-.App-link {
-  color: #09d3ac;
+.Weather {
+  width: 50vw;
+  /* height: 60vh; */
+  /* flex-basis: 3; */
 }
