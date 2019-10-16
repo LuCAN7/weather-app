@@ -34,9 +34,11 @@
   height: 100vh;
   flex-basis: 1;
   background-image: url('./bg.jpg');
-  /* background-attachment: fixed;
-  background-size: cover;
-  background-position: center; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100vw 960px;
+ 
 }
 .Form {
   width: 50vw;
